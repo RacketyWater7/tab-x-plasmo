@@ -1,6 +1,6 @@
 {
   "name": "tab-x-plasmo",
-  "displayName": "Tab x plasmo",
+  "displayName": "Tab X - Enhanced Browsing Awaits",
   "version": "0.0.1",
   "description": "Tab X: Enhanced browsing! Enjoy a feature-rich new tab page for heightened productivity and a better online experience.",
   "author": "Haseeb Udeen <haseebudeen@outlook.com>",
@@ -10,6 +10,11 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.12",
+    "@mui/icons-material": "^5.15.13",
+    "@mui/material": "^5.15.13",
     "plasmo": "0.85.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -24,8 +29,8 @@
     "typescript": "5.3.3"
   },
   "manifest": {
-    "host_permissions": [
-      "https://*/*"
+    "permissions": [
+      "storage"
     ]
   }
 }
